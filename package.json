@@ -1,0 +1,31 @@
+{
+  "name": "@crispthinking/codemods",
+  "version": "0.0.1",
+  "description": "A collection of codemods",
+  "main": "lib/main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crispthinking/js-codemods.git"
+  },
+  "author": "James Garbutt (https://github.com/43081j)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crispthinking/js-codemods/issues"
+  },
+  "homepage": "https://github.com/crispthinking/js-codemods#readme",
+  "devDependencies": {
+    "@types/jscodeshift": "^0.11.11",
+    "jscodeshift": "^0.15.2",
+    "prettier": "^3.2.5",
+    "recast": "^0.23.7",
+    "typescript": "^5.4.5"
+  }
+}
